@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+.headerContainer {
+    background-color: #4C4C47;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+
+}
+.headerContent {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    align-items: center;
+    color: #E5DCC5;
+    margin-left: auto;
+
+}
+.home{
+padding: 16px;
+text-decoration: none;
+color: #E5DCC5;
+}
+.homeTest, .aboutTest, .contactTest {
+    text-decoration: none;
+    color: #E5DCC5;
+}
+.home:hover {
+    background-color: #848FA5;
+    color:black;
+}
+
+.about{
+    padding: 16px;
+}
+.about:hover{
+    background-color: #848FA5;
+    color:black;
+}
+.contact{
+    padding: 16px;
+    text-decoration: none;
+}
+.contact:hover{
+    background-color: #848FA5;
+    color:black;
+}
+.mainContainer{
+    height: 95vh;
+    margin-top: 300px;
+    margin-left: 30px;
+    width: 70%;
+}
+.textContainer{
+
+}
+.headDiv{
+    font-size: 25px;
+    font-family: verdana, sans-serif; 
+}
+.bodyDiv{
+    font-size: 35px;
+    margin-top: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.textContent{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.buttonContainer{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.button1{
+   
+}
+.getStarted, .learnMore {
+    padding: 10px;
+    background-color: #4C4C47;
+    color: #E5DCC5;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.getStarted:hover, .learnMore:hover {
+    background-color: #848FA5;
+    color: black;
+}
+
+.getStarted:active, .learnMore:active {
+    background-color: #3A3A35;
+    color: #E5DCC5;
+}
